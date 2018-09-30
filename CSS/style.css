@@ -1,0 +1,42 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4e53;
+    line-height: 1.5;
+}
+
+#main-doc {
+    margin-left: 2em;
+}
+
+header  {
+    font-size: 1.5em;
+}
+
+#navbar {
+    border-bottom: 1px solid #000;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+    
+    body {
+        flex-direction: row;
+    }
+
+    #navbar {
+        border-right: 1px solid #000;
+        width: 300px;
+        min-width: 270px;
+    }
+}
